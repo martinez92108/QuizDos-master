@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.jonmid.quizdos.IndexActivity;
 import com.jonmid.quizdos.Model.UserModelMrtinezJonatan;
 import com.jonmid.quizdos.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +40,7 @@ public class UserAdapterMartinezJonatan {
         return viewHolder;
     }
 
-    @Override
+
     public void onBindViewHolder(ViewHolder holder, int position) {
         // Encargado de trabajar con el item.xml y sus componentes
         //String a;
@@ -71,7 +72,7 @@ public class UserAdapterMartinezJonatan {
 
     }
 
-    public int getItemCount() {        return UserModelMrtinezJonatan.size(); }
+    public int getItemCount() {        return countryList.size(); }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         TextView name;
