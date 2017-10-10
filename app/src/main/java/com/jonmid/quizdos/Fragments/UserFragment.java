@@ -15,6 +15,10 @@ import com.jonmid.quizdos.R;
 public class UserFragment extends Fragment {
 
 
+
+
+
+
     public UserFragment() {
         // Required empty public constructor
     }
